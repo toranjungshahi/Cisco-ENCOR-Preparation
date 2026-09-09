@@ -1,6 +1,15 @@
+\---
+
+layout: default
+title: Home
+description: >-
+Cisco network engineering labs, manuals, and notes covering nearly the full
+CCNP ENCOR v1.2 blueprint — built and documented in EVE-NG.
+---
+
 # Network Engineering Lab Portfolio
 
-This repository is a collection of Cisco network engineering labs built and documented in EVE-NG — covering routing, switching, security, address translation, network management, and automation. It contains exported EVE-NG lab topologies, professional lab manuals, and PPT notes for almost all topics in CCNP-ENCOR blueprint v1.2.  
+This repository is a collection of Cisco network engineering labs built and documented in EVE-NG — covering routing, switching, security, address translation, network management, and automation. It contains exported EVE-NG lab topologies, professional lab manuals, and PPT notes for almost all topics in CCNP-ENCOR blueprint v1.2.
 
 \---
 
@@ -43,11 +52,13 @@ GCP deployment details (for reference):
 ## Repository Structure
 
 ```
-/EVE-NG Topology Files       # EVE-NG exported lab topology files
-
-/Lab Pcap files		#Pcap files from labs to visualise protocols operation
-/Lab Manuals           # Lab manuals (per-lab documentation)
+/EVE-NG-Topology-Files       # EVE-NG exported lab topology files
+/Lab-Pcap-files		#Pcap files from labs to visualise protocols operation
+/Lab-Manuals           # Lab manuals (per-lab documentation)
 /Notes             # PPT notes and supporting slide decks
+
+
+
 ```
 
 \---
@@ -55,19 +66,31 @@ GCP deployment details (for reference):
 ## Note
 
 ```
-
-For lab topologies that do not have pdf manuals, follow OCG book section for that topic such as ZBFW and CoPP. Credit to EVE-NG community for some lab topologies and manuals such as VTP, Etherchannels, SPAN and RSPAN. 
-
+For lab topologies that do not have pdf manuals, follow OCG book section for that topic such as ZBFW and CoPP. Credit to EVE-NG community for some lab topologies and manuals such as VTP, Etherchannels, SPAN and RSPAN.
 ```
+
+## Viewing Manuals (No Direct Download)
+
+Lab manuals are embedded inline for viewing rather than linked as direct downloads. Each manual page uses:
+
+```html
+<iframe src="Lab-Manuals/Bgp-Lab-Manual.pdf" width="100%" height="800px" style="border: 1px solid #ddd;">
+  This browser does not support inline PDFs. Please view the manual in a PDF-capable browser.
+</iframe>
+```
+
+Swap the `src` path for each manual's actual file location. This renders the PDF inline instead of triggering a download prompt.
+
+
 
 ## Skills Demonstrated
 
-`EVE-NG` `IOS-XE` `Nested Virtualization` `Static Routing` `OSPF` `BGP` `HSRP/VRRP/GLBP` `ACL/PACL/VACL` `VRF-Lite` `GRE/IPsec` `SNMP` `NetFlow` `EEM/Ansible` `SPAN/RSPAN/ERSPAN` `STP/RSTP/MST` 'VTP/DTP/EtherChannels`
+`EVE-NG` `IOS-XE` `Nested Virtualization` `Static Routing` `OSPF` `BGP` `HSRP/VRRP/GLBP` `ACL/PACL/VACL` `VRF-Lite` `GRE/IPsec` `SNMP` `NetFlow` `EEM/Ansible` `SPAN/RSPAN/ERSPAN` `STP/RSTP/MST` `VTP/DTP/EtherChannels`
 
 \---
 
 ## Contact
 
 Toran — Network Engineer | CCNP-track
-\[LinkedIn](https://www.linkedin.com/in/toran-shahi-b587231b1/) · \[Email](toranjungshahi@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/toran-shahi-b587231b1/) · [Email](mailto:toranjungshahi@gmail.com)
 

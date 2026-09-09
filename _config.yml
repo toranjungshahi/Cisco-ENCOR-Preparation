@@ -1,0 +1,74 @@
+# Site settings
+title: Network Engineering Lab Portfolio
+description: >-
+  Cisco network engineering labs, manuals, and notes covering nearly the full
+  CCNP ENCOR v1.2 blueprint — built and documented in EVE-NG. Includes exported
+  EVE-NG lab topologies, verification-first lab manuals, packet captures, and
+  supporting PPT notes.
+author: Toran Shahi
+url: "" # set after Pages is live, e.g. https://<username>.github.io
+baseurl: ""
+
+# Theme
+theme: jekyll-theme-cayman
+
+# Markdown / build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Navigation-relevant metadata
+show_downloads: false
+
+# Contact / footer info available to theme templates
+github:
+  is_project_page: true
+linkedin_url: "https://www.linkedin.com/in/toran-shahi-b587231b1/"
+contact_email: "toranjungshahi@gmail.com"
+
+# Skills / tags shown on the homepage
+skills:
+  - EVE-NG
+  - IOS-XE
+  - Nested Virtualization
+  - Static Routing
+  - OSPF
+  - BGP
+  - HSRP/VRRP/GLBP
+  - ACL/PACL/VACL
+  - VRF-Lite
+  - GRE/IPsec
+  - SNMP
+  - NetFlow
+  - EEM/Ansible
+  - SPAN/RSPAN/ERSPAN
+  - STP/RSTP/MST
+  - VTP/DTP/EtherChannels
+
+# Don't let Jekyll try to process large binary/topology assets as site pages
+include:
+  - "eve-ng-topology-files"
+  - "lab-pcap-files"
+  - "lab-manuals"
+  - "notes"
+
+exclude:
+  - "*.unl"
+  - "*.pcap"
+  - "*.pcapng"
+  - "*.pptx"
+  - "*.docx"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README_source/
+  - scripts/
+
+# Ensure non-Markdown lab assets are still copied into the built site so
+# download links in the manuals/README resolve correctly
+keep_files:
+  - "eve-ng-topology-files"
+  - "lab-pcap-files"
+  - "notes"
