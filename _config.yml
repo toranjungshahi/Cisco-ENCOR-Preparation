@@ -6,8 +6,8 @@ description: >-
   EVE-NG lab topologies, verification-first lab manuals, packet captures, and
   supporting PPT notes.
 author: Toran Shahi
-url: "https://toranjungshahi.github.io" # set after Pages is live, e.g. https://<username>.github.io
-#baseurl: "/Cisco-ENCOR-Preparation"
+url: "" # set after Pages is live, e.g. https://<username>.github.io
+baseurl: ""
 
 # Theme
 theme: jekyll-theme-cayman
@@ -48,17 +48,12 @@ skills:
 
 # Don't let Jekyll try to process large binary/topology assets as site pages
 include:
-  - "EVE-NG-Topology-Files"
-  - "Lab-Pcap-files"
-  - "Lab-Manuals"
-  - "Notes"
+  - "eve-ng-topology-files"
+  - "lab-pcap-files"
+  - "lab-manuals"
+  - "notes"
 
 exclude:
-  - "*.unl"
-  - "*.pcap"
-  - "*.pcapng"
-  - "*.pptx"
-  - "*.docx"
   - Gemfile
   - Gemfile.lock
   - node_modules
@@ -69,6 +64,6 @@ exclude:
 # Ensure non-Markdown lab assets are still copied into the built site so
 # download links in the manuals/README resolve correctly
 keep_files:
-  - "EVE-NG-Topology-Files"
-  - "Lab-Pcap-files"
-  - "Notes"
+  - "eve-ng-topology-files"
+  - "lab-pcap-files"
+  - "notes"
