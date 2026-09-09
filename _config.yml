@@ -12,6 +12,10 @@ baseurl: ""
 # Theme
 theme: jekyll-theme-cayman
 
+# Required for the theme's "View on GitHub" button — jekyll-github-metadata
+# uses this to build the repository link
+repository: toranjungshahi/Cisco-ENCOR-Preparation
+
 # Markdown / build settings
 markdown: kramdown
 kramdown:
