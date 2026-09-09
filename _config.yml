@@ -7,7 +7,7 @@ description: >-
   supporting PPT notes.
 author: Toran Shahi
 url: "https://toranjungshahi.github.io" # set after Pages is live, e.g. https://<username>.github.io
-baseurl: "/Cisco-ENCOR-Preparation"
+#baseurl: "/Cisco-ENCOR-Preparation"
 
 # Theme
 theme: jekyll-theme-cayman
