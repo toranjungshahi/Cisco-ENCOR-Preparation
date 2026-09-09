@@ -60,23 +60,18 @@ GCP deployment details (for reference):
 
 ---
 
+## Browse the Repository
+
+- [📖 Browse Lab Manuals]({{ site.baseurl }}/lab-manuals/)
+- [🗺️ Browse EVE-NG Topology Files]({{ site.baseurl }}/eve-ng-topology-files/)
+- [📦 Browse Packet Captures]({{ site.baseurl }}/lab-pcap-files/)
+- [📝 Browse Notes]({{ site.baseurl }}/notes/)
+
 ## Note
 
 ```
 For lab topologies that do not have pdf manuals, follow OCG book section for that topic such as ZBFW and CoPP. Credit to EVE-NG community for some lab topologies and manuals such as VTP, Etherchannels, SPAN and RSPAN.
 ```
-
-## Viewing Manuals (No Direct Download)
-
-Lab manuals are embedded inline for viewing rather than linked as direct downloads. Each manual page uses:
-
-```html
-<iframe src="lab-manuals/bgp-lab-manual.pdf" width="100%" height="800px" style="border: 1px solid #ddd;">
-  This browser does not support inline PDFs. Please view the manual in a PDF-capable browser.
-</iframe>
-```
-
-Swap the `src` path for each manual's actual file location. This renders the PDF inline instead of triggering a download prompt.
 
 
 ## Skills Demonstrated
@@ -87,5 +82,5 @@ Swap the `src` path for each manual's actual file location. This renders the PDF
 
 ## Contact
 
-Toran — Network Engineer | CCNP-track
+Toran Shahi | Network Engineer | CCNP-track
 [LinkedIn](https://www.linkedin.com/in/toran-shahi-b587231b1/) · [Email](mailto:toranjungshahi@gmail.com)
