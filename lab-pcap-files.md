@@ -10,8 +10,8 @@ Pcap files captured during labs, useful for visualizing protocol operation in Wi
 
 <ul>
 {% for file in site.static_files %}
-  {% if file.path contains '/lab-pcap-files/' %}
-  <li><a href="{{ site.baseurl }}{{ file.path }}" target="_blank" rel="noopener">{{ file.basename }}{{ file.extname }}</a></li>
+  {% if file.path contains '/Lab-Pcap-files/' %}
+  <li><a href="{{ site.baseurl }}{{ file.path | uri_escape }}" target="_blank" rel="noopener">{{ file.basename }}{{ file.extname }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>

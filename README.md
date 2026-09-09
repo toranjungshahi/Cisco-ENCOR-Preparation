@@ -52,10 +52,10 @@ GCP deployment details (for reference):
 ## Repository Structure
 
 ```
-/eve-ng-topology-files      # EVE-NG exported lab topology files
-/lab-pcap-files              # Pcap files from labs to visualise protocols operation
-/lab-manuals                 # Lab manuals (per-lab documentation)
-/notes                        # PPT notes and supporting slide decks
+/EVE-NG-Topology-files      # EVE-NG exported lab topology files
+/Lab-Pcap-files              # Pcap files from labs to visualise protocols operation
+/Labs-Manuals                # Lab manuals (per-lab documentation)
+/Notes                        # PPT notes and supporting slide decks
 ```
 
 ---

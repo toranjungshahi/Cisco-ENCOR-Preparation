@@ -48,10 +48,10 @@ skills:
 
 # Don't let Jekyll try to process large binary/topology assets as site pages
 include:
-  - "eve-ng-topology-files"
-  - "lab-pcap-files"
-  - "lab-manuals"
-  - "notes"
+  - "EVE-NG-Topology-files"
+  - "Lab-Pcap-files"
+  - "Labs-Manuals"
+  - "Notes"
 
 exclude:
   - Gemfile
@@ -64,6 +64,7 @@ exclude:
 # Ensure non-Markdown lab assets are still copied into the built site so
 # download links in the manuals/README resolve correctly
 keep_files:
-  - "eve-ng-topology-files"
-  - "lab-pcap-files"
-  - "notes"
+  - "EVE-NG-Topology-files"
+  - "Lab-Pcap-files"
+  - "Labs-Manuals"
+  - "Notes"

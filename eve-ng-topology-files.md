@@ -10,8 +10,8 @@ Exported EVE-NG lab topology files. Import these directly into your own EVE-NG i
 
 <ul>
 {% for file in site.static_files %}
-  {% if file.path contains '/eve-ng-topology-files/' %}
-  <li><a href="{{ site.baseurl }}{{ file.path }}" target="_blank" rel="noopener">{{ file.basename }}{{ file.extname }}</a></li>
+  {% if file.path contains '/EVE-NG-Topology-files/' %}
+  <li><a href="{{ site.baseurl }}{{ file.path | uri_escape }}" target="_blank" rel="noopener">{{ file.basename }}{{ file.extname }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
