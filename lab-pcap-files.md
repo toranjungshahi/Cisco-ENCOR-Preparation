@@ -6,7 +6,7 @@ permalink: /lab-pcap-files/
 
 # Lab Packet Captures
 
-Pcap files captured during labs, useful for visualizing protocol operation in Wireshark.
+Pcap files captured during labs, useful for visualizing protocol operation in Wireshark. Caution! Clicking below link will download them to your machine.
 
 <ul>
 {% for file in site.static_files %}

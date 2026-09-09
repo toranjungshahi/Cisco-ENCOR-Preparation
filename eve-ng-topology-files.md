@@ -6,7 +6,7 @@ permalink: /eve-ng-topology-files/
 
 # EVE-NG Topology Files
 
-Exported EVE-NG lab topology files. Import these directly into your own EVE-NG instance to reload the exact same setup.
+Exported EVE-NG lab topology files. Import these directly into your own EVE-NG instance to reload the exact same setup. Caution! Clicking below link will download them to your machine. 
 
 <ul>
 {% for file in site.static_files %}

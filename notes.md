@@ -6,7 +6,7 @@ permalink: /notes/
 
 # Notes
 
-PPT notes and supporting slide decks summarizing concepts, topology diagrams, and key takeaways for each lab.
+PPT slide decks summarizing concepts, topology diagrams, and configurations from Cisco OCG book. Caution! Clicking below link will download them to your machine.
 
 <ul>
 {% for file in site.static_files %}
