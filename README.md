@@ -3,8 +3,8 @@ layout: default
 title: Home
 permalink: /
 description: >-
-  Cisco network engineering labs, manuals, and notes covering nearly the full
-  CCNP ENCOR v1.2 blueprint — built and documented in EVE-NG.
+  Network engineering labs, manuals, and notes covering nearly the full
+  Cisco CCNP ENCOR v1.2 blueprint — built and documented in EVE-NG. More documentation will be added as I progress through various vendor certifications.
 ---
 
 # Network Engineering Lab Portfolio
